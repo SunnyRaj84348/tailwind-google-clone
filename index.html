@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#1e1d1d]">
+    <nav class="pt-2 md:pt-4">
+        <ul
+            class="flex justify-start text-[#848383] space-x-3 font-bold ml-8 md:justify-end md:ml-0 md:mr-28 md:text-[#fffffff4] md:font-[500]">
+            <li><a href="#" class="hover:underline text-[13px]">Gmail</a></li>
+            <li><a href="#" class="hover:underline text-[13px]">Images</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="pt-10 md:pt-28">
+            <img src="./res/glogo.png" alt="Google" class="w-40 mx-auto md:w-[272px]">
+        </div>
+
+        <div id="input" class="pt-7 px-4 md:px-0 flex flex-col md:items-center">
+            <input type="text"
+                class="bg-[#1e1d1d] text-[#ffffffb8] border-solid border-[1px] border-[#ffffff51] rounded-3xl py-[6px]  px-4 md:py-[10px] md:w-2/5">
+
+            <div class="flex justify-center pt-8 space-x-3">
+                <input type="submit" value="Google Search"
+                    class="bg-[#2f2f2f] text-[#ffffffd9] text-sm px-4 py-2 rounded-[5px] border-[0.5px] border-[#1e1d1d] hover:border-[#ffffff51]">
+                <input type="submit" value="I'm Feeling Lucky"
+                    class="bg-[#2f2f2f] text-[#ffffffd9] text-sm px-4 py-2 rounded-[5px] border-[0.5px] border-[#1e1d1d] hover:border-[#ffffff51]">
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
